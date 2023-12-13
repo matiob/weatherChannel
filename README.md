@@ -13,7 +13,7 @@ Welcome to the weatherChannel App project. This application is a web-based wrapp
 
 >[!TIP]
 >To run the project locally, follow these steps:
->1. Clone this repository: `git clone https://github.com/matiob/wetherChannel.git`
+>1. Clone this repository: `git clone https://github.com/matiob/weatherChannel.git`
 >2. Open the `index.html` file in your web browser.
 
 We hope you enjoy exploring the project!
