@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Channel</title>
+    <meta name="description" content="Weather channel API">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="title">
+        <h1>Weather Channel</h1>
+        <input type="text" placeholder="Enter a city name">
+        <button id="button-send">SEND</button>
+    </header>
+    <main class="container">
+        <section class="container-fluid">
+            <ul class="cities">
+                <li>
+                    <span id="city"></span>
+                    <br>
+                    <span id="temperature"></span><span id="grades"></span>
+                    <br>
+                    <img id="wicon" src="" alt="wether icon">
+                    <br>
+                    <span id="description"></span><br>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

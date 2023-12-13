@@ -1,0 +1,88 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: #3E5641;
+    color: #D0CFCF;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
+}
+
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-size: 2rem;
+    height: 5vh;
+    padding: 1.5vh 1.5vw 3vh;
+    border-bottom: 1px solid;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 3vh 2vw;
+    margin-left: 2vw;
+    border-radius: 0.5rem;
+    background: #DC602E;
+}
+  
+button:hover {
+    background: #BC412B;
+}
+
+sup {
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+img {
+    width: 4rem;
+}
+
+.container {
+    background-color: #D0CFCF;
+    color: #19180A;
+    width: 25vw;
+    height: 50vh;
+    border-radius: 1rem;
+    margin-left: 20vw;
+    visibility : hidden;
+    margin: 10vh auto;
+}
+
+.cities {
+    padding: 2vw 10%; 
+}
+
+#city {
+    font-size: 2rem;
+    color: #717681;
+}
+
+#temperature {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#description {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #717681;
+}
+
+.title {
+    text-align: center;
+}
